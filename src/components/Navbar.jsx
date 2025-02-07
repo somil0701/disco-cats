@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div className='navbar'>
         <div className="navbar-button brand-logo">
-            <img src="../public/assets/catlogo.svg" alt="catlogo"/>
+            <img src="../assets/catlogo.svg" alt="catlogo"/>
             <p>DiscoCats</p>
         </div>
         <div className="navbar-button connect-wallet">
