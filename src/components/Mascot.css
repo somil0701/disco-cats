@@ -39,16 +39,16 @@
     position: absolute;
     width: 50px;
     height: 50px;
-    top: calc(100% - 20px); /* Adjust this value to fine-tune vertical position */
+    top: calc(100% - 20px); 
 }
 
 .left-mascot-cat-ear {
-    left: calc(50% - 500px); /* Adjust based on voting panel width */
+    left: calc(50% - 500px); 
     transform: translateY(40%);
 }
 
 .right-mascot-cat-ear {
-    right: calc(50% - 500px); /* Adjust based on voting panel width */
+    right: calc(50% - 500px); 
     transform: translateY(40%); 
 }
 
@@ -67,7 +67,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; /* Add space between mascot and voting panel */
+    margin-bottom: 20px; 
 }
 
 .left-mascot-cat-ear,
@@ -87,12 +87,11 @@
 }
 
 .mascot {
-    position: relative; /* Changed to relative */
+    position: relative;
     width: 150px;
     height: 150px;
     background: transparent;
     z-index: 2;
-    /* Remove absolute positioning properties */
 }
 
 /* Add media queries for smaller screens */
@@ -105,16 +104,6 @@
         right: 16%;
     }
 }
-
-/* @media screen and (max-width: 1200px) {
-    .left-mascot-cat-ear {
-        left: 24%;
-    }
-    
-    .right-mascot-cat-ear {
-        right: 24%;
-    }
-} */
 
 @media screen and (max-width: 768px) {
     .left-mascot-cat-ear {
