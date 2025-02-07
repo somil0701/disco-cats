@@ -68,3 +68,30 @@
         margin: 2rem 6rem;
     }
 }
+
+@media screen and (max-width: 650px){
+    .navbar{
+        flex-direction: column;
+        margin: 2rem 8rem;
+        align-items: center;
+        margin-bottom: 7rem;
+    }
+
+    .navbar div{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .navbar{
+        margin: 2rem 4rem;
+        margin-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .navbar{
+        margin: 2rem 2rem;
+        margin-bottom: 7rem;
+    }
+}

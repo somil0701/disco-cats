@@ -136,8 +136,30 @@
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 998px){
     .card-stat span{
         padding: 0.2rem 0rem;
+    }
+
+    .card{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .card{
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .card{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .card{
+        width: 55vw;
     }
 }

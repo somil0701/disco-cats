@@ -86,3 +86,22 @@
     background-color: #edcd94;
     color: #fff;
 }
+
+/* responsiveness */
+@media screen and (max-width: 998px){
+    .lower-card{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .lower-card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .lower-card{
+        width: 75%;
+    }
+}

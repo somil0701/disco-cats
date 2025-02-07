@@ -1,13 +1,21 @@
 import "./VotingPanel.css"
 import Card from "./Card.jsx"
 import LowerCard from "./LowerCard.jsx"
+import { useState } from "react"
+import { GiHamburgerMenu }  from "react-icons/gi";
 
 const VotingPanel = () => {
+    const [showMenu, setShowMenu] = useState(false);
+
+    const handleButtonToggle = () => {
+        setShowMenu(!showMenu);
+    };
+
     return (
         <div className="voting-panel">
             <div className="voting-bar">
                 <div className="voting-logo"><p>VOTING</p></div>
-                <div className="voting-buttons">
+                <div className= {showMenu ? "voting-buttons-mobile" : "voting-buttons"}>
                     <div className="voting-button">
                         <img src="../assets/token.svg" alt="token" />
                         <p>Token</p>
@@ -21,6 +29,11 @@ const VotingPanel = () => {
                         <p>Points</p>
                     </div>
                     <div className="manual-button">Manual</div>
+                </div>
+                <div className="ham-menu">
+                    <button onClick={handleButtonToggle}>
+                        <GiHamburgerMenu />
+                    </button>
                 </div>
             </div>
             <div className="cards-section">
