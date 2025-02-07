@@ -94,4 +94,12 @@
         margin: 2rem 2rem;
         margin-bottom: 7rem;
     }
+
+    .brand-logo{
+        justify-content: center;
+    }
+
+    .connect-wallet{
+        text-align: center;
+    }
 }
