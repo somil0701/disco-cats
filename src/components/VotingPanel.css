@@ -190,8 +190,14 @@
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 470px) {
+    .voting-panel{
+        margin: 2rem 2rem;
+    }
+}
+
+/* @media screen and (max-width: 400px){
     .voting-panel{
         margin: 2rem 3rem;
     }
-}
+} */

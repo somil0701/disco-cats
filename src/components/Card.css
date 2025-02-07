@@ -148,18 +148,18 @@
 
 @media screen and (max-width: 480px){
     .card{
-        width: 45vw;
+        width: 65vw;
     }
 }
 
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
     .card{
-        width: 50vw;
+        width: 65vw;
     }
-}
+} */
 
 @media screen and (max-width: 360px){
     .card{
-        width: 55vw;
+        width:60vw;
     }
 }
