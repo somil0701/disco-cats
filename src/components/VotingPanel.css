@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.voting-panel{
+    margin: 2rem 15rem;
+    border: 5px solid rgb(237 136 83);
+    border-radius: 10px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.voting-panel, .voting-panel *{
+    background-color: rgb(255 242 234);
+}
+
+.voting-bar{
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.voting-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.voting-button, .manual-button{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
+    color: rgb(114 52 13);
+    font-size: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 0 1rem;
+}
+
+.manual-button{
+    border: none;
+    background-color: rgb(233 144 102);
+    color: rgb(255 229 205);
+    box-shadow: 0px 3px rgb(156 86 46);
+}
+
+.voting-button img{
+    width: 30px;
+    height: 30px;
+}
+
+.voting-logo{
+    font-size: 2.5rem;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(252 123 37);
+}
+
+.voting-button:hover, .manual-button:hover{
+    cursor: pointer;
+}
+
+.cards-section{
+    border-radius: 3rem;
+    margin: 0.5rem;
+    height: 89.5%;
+    background-color: rgb(237 205 148);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.cards-section *{
+    background-color: rgb(237 205 148);
+}
+
+.upper-cards-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 4.3rem;
+    margin-top: 2rem;
+    /* width: 100%; */
+}
+
+.lower-cards-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    width: 99%;
+    height: 100%;
+    margin-bottom: 2rem;
+    background-color: rgb(174 98 49);
+    /* border: 2px solid red; */
+    /* border-radius: 3rem; */
+    border-radius: 3rem;
+}
+
+.lower-cards-section *{
+    background-color: rgb(174 98 49);
+}
+
+.lower-card{
+    border: 1px solid black;
+    background-color: white;
+    margin: 1rem 2rem;
+}
+
+.lower-card *{
+    background-color: white;
+}
+
+
+/* responsiveness */
+@media screen and (max-width: 1400px){
+    .voting-panel{
+        margin: 2rem 10rem;
+    }
+
+    .upper-cards-section{
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .voting-panel{
+        margin: 2rem 6rem;
+    }
+}
